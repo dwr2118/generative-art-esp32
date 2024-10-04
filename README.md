@@ -1,5 +1,5 @@
 # generative-art-esp32
-This repo holds the contents needed to go from an unlit TTGO ESP-32 to something that resembles desktop screensavers. 
+This repo holds the contents needed to go from an unlit TTGO ESP-32 to something that resembles a desktop screensavers. 
 
 ## My Design Thought Process
 This is my blog post for the project where I go more into depth on my specific design choices to create this wonderful piece: [post](https://dwr2118.github.io/docs/module1_docs.html) 
