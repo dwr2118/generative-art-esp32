@@ -11,4 +11,8 @@ https://github.com/user-attachments/assets/5a1cd7fe-5ddd-412b-b6e6-df8062558c53
 2. Please carefully follow the setup instructions listed in this document created by Professor Tiffany Tseng; instructor of COMS BC3930 for Fall 2024: https://coms3930.notion.site/Lab-1-TFT-Display-a53b9c10137a4d95b22d301ec6009a94
 3. Download all of these Arudino files by cloning this repo on your local computer. The header files hold the arrays containing the information behind the images and sprites used in the project.
 4. Ensure the .h files are in the same folder as the fall_v1.ino file. 
-5. Follow the connection instructions in Prof. Tseng's documentation and you should be able to see my piece on your canvas!
+5. Follow the connection instructions in Prof. Tseng's documentation and you should be able to see my piece on your canvas as shown below: 
+
+
+https://github.com/user-attachments/assets/89e922d6-f729-4ab1-9c51-d61f6d36555e
+
