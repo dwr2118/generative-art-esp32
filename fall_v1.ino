@@ -135,10 +135,6 @@ void loop() {
       if (triangles[i].y > 135) {
         initTriangle(triangles[i]);
       }
-      
-      // Draw the triangle
-      // leafSprite.pushImage(0, 0, redleafBlackW, redleafBlackH, red_leaf_blackbg);
-      // leafSprite.pushSprite(triangles[i].x, triangles[i].y, TFT_BLACK);
 
       // season, x pos, y pos 
       drawParticles(season, triangles[i].x, triangles[i].y);
@@ -152,8 +148,6 @@ void loop() {
 }
 
 void rePushBackground(int currSeason){
-  // redraw the background to refresh the screen
-  // TJpgDec.drawJpg(0, 0, exact_size, sizeof(exact_size));
 
   // fall background 
   if (currSeason == 0){
@@ -206,9 +200,6 @@ void numberBox(int num, int x, int y)
   // Draw the dividing line inside the envelope to simulate the flap folding
   img.drawLine(0, 5, 20, 20, TFT_WHITE);  // Left diagonal line inside envelope
   img.drawLine(40, 5, 20, 20, TFT_WHITE);  // Right diagonal line inside envelope
-
-  // Optional: You can add more lines for details if needed
-  // img.drawLine(10, 5, 10, 20, TFT_WHITE);  // Add more dividing lines if desired
 
   // Draw a small circle in the top right corner for the notification
   img.fillCircle(35, 10, 6, TFT_RED);  // Red notification bubble (circle)
