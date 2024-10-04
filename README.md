@@ -2,7 +2,7 @@
 This repo holds the contents needed to go from an unlit TTGO ESP-32 to something that resembles desktop screensavers. 
 
 ## My Design Thought Process
-This is my design documentation for the project where I go more into depth on my specific design choices to create this wonderful piece: 
+This is my blog post for the project where I go more into depth on my specific design choices to create this wonderful piece: [post](https://dwr2118.github.io/docs/module1_docs.html) 
 
 https://github.com/user-attachments/assets/5a1cd7fe-5ddd-412b-b6e6-df8062558c53
 
