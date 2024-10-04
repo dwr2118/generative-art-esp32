@@ -12,7 +12,7 @@ TFT_eSprite snowSprite = TFT_eSprite(&tft);
 TFT_eSprite germSprite = TFT_eSprite(&tft);
 TFT_eSprite img = TFT_eSprite(&tft);
 
-// Struct to hold properties of falling triangles 
+// Struct to hold properties of falling triangles, this was used for storing sprite metadata during movement.
 struct Triangle {
   int x;    // X position
   int y;    // Y position
@@ -44,13 +44,6 @@ void initTriangle(Triangle &tri) {
   tri.size = random(10, 30);      // Random triangle size
   tri.speed = random(10, 30);       // Random speed for falling
 }
-
-// Function to generate a random color
-uint16_t randomColor() {
-  uint16_t colors[] = {TFT_BROWN, TFT_YELLOW, TFT_MAROON};
-  return colors[random(0, 3)];
-}
-
 // This next function will be called during decoding of the jpeg file to
 // render each block to the TFT.  If you use a different TFT library
 // you will need to adapt this function to suit.
